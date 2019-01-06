@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="scan_match" type="buffer_geo" name="buffer_cats" output="screen" >
+		<remap from="/tinypower/odom" to="/odom" />
+	</node>
+
+</launch>
